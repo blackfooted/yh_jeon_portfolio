@@ -524,10 +524,10 @@
 .slider-bg-14 {background: url(../portfolio/검은사막M_UI역기획서+전유현/슬라이드14.PNG);}
 
 .single-slider {
-    height: 600px;
-    background-size: contain;
+    height: 720px;
+    background-repeat: no-repeat;
     background-position: center;
-    background-color: #cccccc;
+    background-color: #ffffff;
     display: table;
     width: 100%;
 }

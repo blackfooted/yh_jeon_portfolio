@@ -525,14 +525,13 @@
 /* Start Slider Area
 ==================================================*/
 .slider-bg-1 {background: url(../img/slide_01.jpg);}
-.slider-bg-2 {background: url(../img/slide_02.jpg);}
-.slider-bg-3 {background: url(../img/slide_03.jpg);}
 
 .single-slider {
-    height: 600px;
-    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
-    background-color: #cccccc;
+    background-color: #ffffff;
     display: table;
     width: 100%;
 }
@@ -594,9 +593,9 @@
 /* End HIre Us Area */
 /* Start Iconbox Area
 ==================================================*/
-.icon-box-img-1 {background-image: url(../img/iconbox_01.jpg);}
-.icon-box-img-2 {background-image: url(../img/iconbox_02.jpg);}
-.icon-box-img-3 {background-image: url(../img/iconbox_03.jpg);}
+.icon-box-img-1 {background-image: url(../img/image.png);}
+.icon-box-img-2 {background-image: url(../img/skills.png);}
+.icon-box-img-3 {background-image: url(../img/goal.jpg);}
 
 .single-icon-box {
     height: 280px;
@@ -715,25 +714,26 @@
 /* End Bemax Area */
 /* Start Latest Project Area
 ==================================================*/
-.project-bg-1 {background-image: url(../img/project_01.jpg);}
-.project-bg-2 {background-image: url(../img/project_02.jpg);}
-.project-bg-3 {background-image: url(../img/project_03.jpg);}
-.project-bg-4 {background-image: url(../img/project_04.jpg);}
-.project-bg-5 {background-image: url(../img/project_05.jpg);}
-.project-bg-6 {background-image: url(../img/project_06.jpg);}
-.project-bg-7 {background-image: url(../img/project_07.jpg);}
+.project-bg-1 {background-image: url(../portfolio/thumbnail/슬라이드1.JPG);}
+.project-bg-2 {background-image: url(../portfolio/thumbnail/슬라이드2.JPG);}
+.project-bg-3 {background-image: url(../portfolio/thumbnail/슬라이드3.JPG);}
+.project-bg-4 {background-image: url(../portfolio/thumbnail/슬라이드4.JPG);}
+.project-bg-5 {background-image: url(../portfolio/thumbnail/슬라이드5.JPG);}
+.project-bg-6 {background-image: url(../portfolio/thumbnail/슬라이드6.JPG);}
+.project-bg-7 {background-image: url(../portfolio/thumbnail/슬라이드7.JPG);}
 
 .latest-project-area .section-title h4 {
     color: #fff;
 }
 
 .single-project {
+    background-repeat: no-repeat;
     height: 225px;
     display: table;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    background-color: #cccc;
+    background-color: #000;
     position: relative;
     z-index: 1;
 }
@@ -840,13 +840,18 @@
 .video-img-thumbnail a:hover {
     color: #4272d7;
 } */
-.apply {background-image : url(../img/apply.jpg);}
+.apply {background-image : url(../img/applying.png);}
 
 .apply {
+    background-repeat: no-repeat;
     height: 320px;
     background-size: contain;
     background-position: center;
     background-color: #ffffff;
+}
+.question{
+    font-weight: bolder;
+    font-size : 20px;
 }
 .single-choose-item p {
     margin: 0;
