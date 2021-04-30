@@ -524,7 +524,7 @@
 /* End Mobile Menu Area */
 /* Start Slider Area
 ==================================================*/
-.slider-bg-1 {background: url(../img/welcome01.jpg);}
+.slider-bg-1 {background: url(./../img/welcome01.jpg);}
 
 .single-slider {
     height: 500px;
@@ -716,7 +716,7 @@
 ==================================================*/
 .project-bg-1 {background-image: url(../portfolio/thumbnail/슬라이드1.JPG);}
 .project-bg-2 {background-image: url(../portfolio/thumbnail/슬라이드2.JPG);}
-.project-bg-3 {background-image: url(../portfolio/thumbnail/슬라이드3.png);}
+.project-bg-3 {background-image: url(./../portfolio/thumbnail/슬라이드3.png);}
 .project-bg-4 {background-image: url(../portfolio/thumbnail/슬라이드4.JPG);}
 .project-bg-5 {background-image: url(../portfolio/thumbnail/슬라이드5.JPG);}
 .project-bg-6 {background-image: url(../portfolio/thumbnail/슬라이드6.JPG);}
